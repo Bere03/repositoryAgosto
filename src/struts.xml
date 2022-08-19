@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+<package name = "default" extends = "hibernate-default">
+
+
+<action name ="consulta_x" class="org.action.x.Actionx" method ="execute_exam">
+<result name ="success" type="redirect">paquetex</result>
+</action>
+
+
+<action name ="consulta_x" class="org.action.x.Actionx" method ="execute_exam">
+<result name ="error" type="redirect">paquetex</result>
+</action>
+
+</package>
+</struts>
+
+
+
+
+<!--  
+
+<action name ="consulta" class="org.action.register.ActionRegister" method ="listRegister">
+<result name ="success">/formregister.jsp</result>
+</action>
+
+<action name ="editar" class="org.action.register.ActionRegister" method ="updateRegister">
+<result name ="success">/formregister.jsp</result>
+</action>-->
